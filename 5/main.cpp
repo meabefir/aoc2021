@@ -130,8 +130,6 @@ int main()
             }
             mat[p2.second][p2.first] ++;
         }
-
-
     }
     int nr;
 
