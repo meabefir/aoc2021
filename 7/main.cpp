@@ -56,6 +56,7 @@ int main()
 
     sort(nrs.begin(), nrs.end());
 
+    cout << " ... ";
     int cost_minim = 999999999;
     for (int i = nrs[0]; i <= nrs[nrs.size() - 1]; i++)
     {
@@ -67,9 +68,11 @@ int main()
         }
         if (cost_curent < cost_minim)
             cost_minim = cost_curent;
+        if (i >= 455 && i <= 464)
+            cout << cost_curent << ' ';
     }
-
-    cout << cost_minim;
+    cout << " ... "
+   // cout << cost_minim;
 
     return 0;
 }

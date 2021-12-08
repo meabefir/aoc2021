@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1638963250 source:c:\users\strut\desktop\c++\other\8\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<iostream>
+	<bits/stdc++.h>
+
+1638980169 source:c:\users\strut\desktop\c++\aoc21\8\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<iostream>
+	<bits/stdc++.h>
+
