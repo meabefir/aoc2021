@@ -34,6 +34,7 @@ int main()
 }
 */
 
+/*
 #include <iostream>
 #include <bits/stdc++.h>
 
@@ -73,6 +74,33 @@ int main()
     }
     cout << " ... "
    // cout << cost_minim;
+
+    return 0;
+}
+*/
+
+// easter egg
+#include <iostream>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+ifstream in("in.in");
+
+vector<int> nrs;
+
+int main()
+{
+    string line;
+    in >> line;
+    stringstream ss(line);
+    for (int i; ss >> i;)
+    {
+        nrs.push_back(i);
+        ss.ignore();
+
+        cout << (char)i;
+    }
 
     return 0;
 }
